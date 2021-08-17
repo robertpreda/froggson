@@ -8,9 +8,8 @@ from discord import Role
 from random import shuffle
 
 from discord.ext.commands import Bot
+from constants import token
 
-
-token = 'ODc2MTEyOTc1OTQ0MTA2MDQ0.YRfVyg.y7pHsDi9p-1fEymD4hU168wrja4'
 
 bot = discord.Client()
 welcome_msg_id = 876102121219588187
